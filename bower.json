@@ -1,0 +1,14 @@
+{
+  "name": "folio-test",
+  "version": "0.0.0",
+  "authors": [
+    "Cornelius Toole <cornelius.toole@gmail.com>"
+  ],
+  "description": "Just a test site for my portfolio",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.3.1"
+  }
+}
