@@ -1,3 +1,4 @@
+baseurl: /academic-portfolio
 exclude: [node_modules, Gruntfile.js, package.json]
 highlighter: pygments
 github: [Repository metadata]
