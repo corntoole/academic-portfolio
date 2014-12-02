@@ -1,9 +1,20 @@
 module.exports = function (grunt) {
 	grunt.initConfig({
+		// jekyll: {
+		// 	dist: {
+		// 		options: {
+		// 			config: '_config.yml, _config.build.yml'
+		// 		}
+		// 	}
+		// },
 		shell: {
 			jekyllBuild: {
-				command: 'jekyll build'
+				command: 'bundle exec jekyll build --config _config.yml,_config.build.yml'
 			}
+			// , 
+			// jekyllServe: {
+			// 	command: 'bundle exec jekyll serve --baseurl ""'
+			// }
 		},
 		connect: {
 			server: {
